@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWB - Services</title>
+    <style>
+        body {
+            font-family: "Tahoma", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #f7f3e9;
+            color: #333333;
+        }
+        nav {
+            background: linear-gradient(90deg, #8a5a44, #d99460);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav .company-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fffbe6;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #fffbe6;
+            color: #8a5a44;
+            transform: scale(1.1);
+        }
+        header {
+            background: linear-gradient(135deg, #8a5a44, #d99460);
+            color: white;
+            text-align: center;
+            padding: 60px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }       
+        .container {
+            width: 75%;
+            max-width: 700px;
+            margin: 20px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #ffffff, #e3f2fd);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        .container img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+        .content {
+            padding: 15px;
+            text-align: justify;
+        }
+        .description {
+            font-size: 14px;
+            color: #444;
+            line-height: 1.6;
+        }
+        .cta-button {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 8px 20px;
+            background-color: #0073e6;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 20px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #005bb5;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        footer {
+            background: linear-gradient(90deg, #d99460, #8a5a44);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+        }
+        a.active {
+            background-color: #ff0000;
+            color: white;
+            width: fit-content;
+            height: max-content;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="company-name">IWB</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a class="active" href="services.html">Services</a>
+            <a href="new software tools.html">Software Tools</a>
+            <a href="stakeholders.html">Stakeholders</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Our Services</h1>
+    </header>
+    <div class="container">
+        <img src="Recycling of Computer Components.webp" alt="Recycling Of Computer Components Services">
+        <div class="content">
+            <div class="description">Recycling of computer components involves the process of collecting, dismantling, and repurposing parts of old or discarded electronic devices to reduce waste and promote environmental sustainability. It's a win-win for technology and the planet.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="Data Recovery Solutions 2.jfif" alt="Data Recovery Services">
+        <div class="content">
+            <div class="description">Data recovery solutions as a service involve retrieving lost, corrupted, or accidentally deleted data. It's essential for maintaining the integrity of vital data while preventing potential consequences of loss.</div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="Data Destruction Services.jfif" alt="Data Destruction Services">
+        <div class="content">
+            <div class="description">Data destruction services focus on securely erasing sensitive information to prevent unauthorized access or recovery, ensuring privacy and sustainable waste management.</div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; IWB / Moholi Shelile @2025. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

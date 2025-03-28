@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWB - Stakeholders</title>
+    <style>
+        body {
+            font-family: "Tahoma", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f7f3e9;
+            color: #333333;
+        }
+        nav {
+            background: linear-gradient(90deg, #8a5a44, #d99460);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav .company-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fffbe6;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #fffbe6;
+            color: #8a5a44;
+            transform: scale(1.1);
+        }
+        header {
+            background: linear-gradient(135deg, #8a5a44, #d99460);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        main {
+            flex: 1;
+            padding: 40px 20px;
+        }
+        .stakeholders-container {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .stakeholders-container h5 {
+            color: #8a5a44;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+        }
+        th {
+            background-color: #8a5a44;
+            color: white;
+            text-transform: uppercase;
+        }
+        td a {
+            color: #8a5a44;
+            text-decoration: none;
+        }
+        td a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: linear-gradient(90deg, #d99460, #8a5a44);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.2);
+        }
+        a.active {
+            background-color: #ff0000;
+            color: white;
+            border-radius: 20px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="company-name">IWB</div>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="new software tools.html">Software Tools</a>
+            <a class="active" href="stakeholders.html">Stakeholders</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Our Stakeholders</h1>
+    </header>
+
+    <main>
+        <div class="stakeholders-container">
+            <h5>At IWB, we proudly work with leading organizations and stakeholders to drive innovation in electronic recycling.</h5>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Role</th>
+                        <th>Website</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Globalit</td>
+                        <td>Investor</td>
+                        <td><a href="https://www.globalit.co.ls/" target="_blank"><u>Visit Site</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>Codeswop</td>
+                        <td>Partner</td>
+                        <td><a href="https://codeswop.com/" target="_blank"><u>Visit Site</u></a></td>
+                    </tr>
+                    <tr>
+                        <td>MesTech</td>
+                        <td>Client</td>
+                        <td><a href="https://www.mestech.co.ls/" target="_blank"><u>Visit Site</u></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; IWB / Moholi Shelile @2025. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

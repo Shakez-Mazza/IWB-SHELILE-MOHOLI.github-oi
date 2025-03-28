@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IWB - Home</title>
+    <style>
+        body {
+            font-family: "Tahoma", sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #f7f3e9;
+            color: #333333;
+        }
+        nav {
+            background: linear-gradient(90deg, #8a5a44, #d99460);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav .company-name {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #fffbe6;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 10px;
+            padding: 10px 15px;
+            font-weight: bold;
+            border-radius: 20px;
+            transition: all 0.3s ease-in-out;
+        }
+        nav a:hover {
+            background-color: #fffbe6;
+            color: #8a5a44;
+            transform: scale(1.1);
+        }
+        header {
+            background: linear-gradient(135deg, #8a5a44, #d99460);
+            color: white;
+            text-align: center;
+            padding: 60px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        .banner {
+            background: linear-gradient(90deg, #94ce0e, #cfd4ba);
+            text-align: center;
+            margin: 20px auto;
+            padding: 50px;
+            border-radius: 20px;
+            width: 90%;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .banner img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .banner p {
+            font-size: 1.4rem;
+            margin: 20px 0;
+            color: #4f5a59;
+        }
+        .banner a {
+            display: inline-block;
+            background-color: #8a5a44;
+            color: white;
+            text-decoration: none;
+            padding: 15px 40px;
+            font-weight: bold;
+            border-radius: 30px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s ease-in-out;
+        }
+        .banner a:hover {
+            background-color: #d99460;
+            transform: translateY(-5px);
+        }
+        footer {
+            background: linear-gradient(90deg, #d99460, #8a5a44);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: auto;
+            box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.3);
+        }
+        a.active {
+  background-color: #ff0000;
+  color: white;
+  width: fit-content;
+  height: max-content;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="company-name">IWB</div>
+        <div>
+            <a class="active" href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="new software tools.html">Software Tools</a>
+            <a href="stakeholders.html">Stakeholders</a>
+            <a href="contacts.html">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Welcome to IWB</h1>
+    </header>
+    <div class="banner">
+        <img src="banner-image.jpg" alt="New Software Tools">
+        <p>Discover innovative solutions for data recovery and destruction.</p>
+        <a href="new software tools.html">Explore Tools</a>
+    </div>
+    <footer>
+        <p>&copy; IWB / Moholi Shelile @2025. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
